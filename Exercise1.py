@@ -35,7 +35,7 @@ text_str = strip_punct(string=text_str, undesired_punc=undesired_punc)
 
 
 # Start dictionary and word count
-# Everything below is from pg 218 of Intro To Python for computer science and data science
+# Everything below is modeled after pg 218 of Intro To Python for computer science and data science
 word_counts = {}
 
 for word in text_str.split():
